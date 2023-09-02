@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Phudu:wght@500&display=swap');
+
+.landing-page {
+    background-color: blue;
+    z-index: 10;
+}
+.background-image {
+    background-image: url('./images/pexels-yente-van-eynde-2403392.jpg');
+    height: 100vh;
+    width: 100%;
+
+}
+.container {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+} 
+
+.menu-btn {
+    width: 20%;
+    border: 1px solid #fff;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 200px;
+    z-index: 9;
+}
+
+.masthead-container {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: steelblue;
+    top: 0px;
+    
+}
+
+.masthead-container h1 {
+    font-family: 'Phudu', cursive;
+    display: inline-block;
+    position: absolute;
+    font-size: 7rem;
+    color: steelblue;
+    top: 220px;
+    left: 150px;
+}
+
+.masthead-container h2 {
+    font-family: 'Oswald', sans-serif;
+    display: block ;
+    position: absolute;
+    font-size: 2rem;
+    color: oldlace;
+    top: 345px;
+    left: 150px;
+    margin-left: 0;
+}
+
+
+.about-section {
+    position: absolute;
+}
