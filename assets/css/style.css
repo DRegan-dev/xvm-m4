@@ -19,12 +19,25 @@
 } 
 
 .menu-btn {
-    width: 20%;
-    border: 1px solid #fff;
+    position: relative;
+    width: 25%;
+    height: 40px;
     text-decoration: none;
-    position: absolute;
-    margin-top: 200px;
+    margin-top: 600px;
+    align-items: center;
     z-index: 9;
+    border: transparent;
+    box-shadow: 0 0 10px #fff;
+    color: steelblue;
+}
+
+.menu-btn:hover {
+    color: lightsteelblue;
+    box-shadow: 0 0 15px #fff;
+}
+
+.menu-text {
+    font-size: 1.5em;
 }
 
 .masthead-container {
